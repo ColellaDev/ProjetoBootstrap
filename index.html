@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Bootstrap</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div id="divLogo" class="container"> 
+        <a href="https://www.instagram.com/marcos.colella/" target="_blank"><img id="logo" alt="logo"  src="./images/instagram-logo.png" class="not-lazy"></a>
+        <a href="https://github.com/ColellaDev" target="_blank"><img id="logo" alt="logo"  src="./images/gitHub-logo.png" class="not-lazy"></a>
+        <a href="https://br.linkedin.com/" target="_blank"><img id="logo" alt="logo"  src="./images/Linkedin-logo.png" class="not-lazy"></a>
+      </div>
+    </header>
+
+    <section class="container">
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <a href="https://ebaconline.com.br/cursos" target="_blank"> <img src="./images/EBAC2.png" alt="First slide"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://getbootstrap.com/" target="_blank"><img src="./images/bootstrap.jpg" alt="Foto de Marta Branco no Pexels"></a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+
+      <div class="row">
+        <div class="col-md-5 col-sm-12">
+          <h1>Marcos Colella Esteves</h1>
+          <h6>Estudante de Programação - Front End</h6>
+          <p>Sou formado em Sistemas de Informação, porém sempre atuei fora da área de tecnologia, trabalhei com Marketing e atualmente atuo na área de Logística, mas sempre senti vontade de trabalhar com Desenvolvimento, nesse ano decidi voltar a estudar e mudar minha carreira, escolhi como foco o Front-End, estudei um pouco de HTML, CSS e JavaScript e pretendo me aprofundar nessa área, principalmente com os cursos da EBAC.</p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img src="./images/how-to-front-end.jpg" alt="">
+        </div>
+      </div>
+
+      <h2>Projetos</h2>
+      <div class="row">
+        <div class="col">
+          
+          <div class="card" style="width: 18rem;">
+            <img src="./images/superTrunfo.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Super Trunfo</h5>
+              <p class="card-text">Jogo Super Trunfo com tema de World of Warcraft</p>
+              <a href="https://github.com/ColellaDev/SuperTrunfoWoW" target="_blank" class="btn btn-primary">GitHub</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./images/ProjetoBootstrap.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Portifólio Bootstrap</h5>
+              <p class="card-text">Projeto criado a partir do desafio EBAC</p>
+              <a href="https://github.com/ColellaDev/ProjetoBootstrap" target="_blank" class="btn btn-primary">GitHub</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./images/EBAC.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa 100% Integral EBAC</h5>
+              <p class="card-text">Em breve iniciaremos esse projeto.</p>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="text-center">&copy; 2021 - Desenvolvido por Marcos Colella Esteves</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
